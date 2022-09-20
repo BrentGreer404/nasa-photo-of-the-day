@@ -1,5 +1,4 @@
 import { React, useState, useEffect } from "react";
-import DateBar from "./DateBar";
 import Image from "./Image";
 import API from "../constants";
 import axios from "axios"
