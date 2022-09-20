@@ -16,7 +16,6 @@ const Body = (props) => {
   const [selectedDate, setSelectedDate] = useState(props.today)
 
   const [ imageData, setImageData ] = useState(null)
-  const [ filter, setFilter ] = useState([])
 
   useEffect(() => {
     axios.get(`${API.URL}?api_key=${API.KEY}&start_date=${activeDate}&end_date=${activeDate}`)
